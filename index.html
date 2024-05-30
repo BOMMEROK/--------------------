@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV en ligne</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dea0f7;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #c29bff;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #862c86 3px solid;
+        }
+
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header .highlight,
+        header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .cv-container {
+            width: 80%;
+            margin: 20px auto;
+            background: #e68de1;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border: 2px solid #862c86;
+            /* Ajout d'une bordure générale */
+        }
+
+        .profil,
+        .experience,
+        .education,
+        .skills,
+        .languages {
+            background-color: #853d85;
+            /* Couleur de fond pour chaque section */
+            border: 2px solid #862c86;
+            /* Bordure pour chaque section */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            /* Coins arrondis pour chaque section */
+        }
+
+        .profil {
+            background-color: rgb(167, 86, 160);
+        }
+
+        .skills ul,
+        .languages ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li,
+        .languages li {
+            background: #d87ec2;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEyOCAzMjBMMjU2IDI0MEwzODQgMzIwTDI4MCA0MTBMNDAwIDUxMkwyNTYgMzYwTDEyMCA1MTJMMjQwIDQxMEwxMjggMzIwWiIgZmlsbD0id2hpdGUiLz48L3N2Zz4="
+                    class="logo" alt="logo">
+                <h1><span class="highlight">Mon</span> CV</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="/index.html">À propos</a></li>
+                    <li><a href="/experience.html">Expérience</a></li>
+<li><a href="/galerie.html">Galerie</a></li>
+                    <li><a href="/competences.html">Compétences</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="cv-container">
+        <header>
+            <h1>Shaita Rayane</h1>
+            <p>Adresse: 福斯因克羅艾貝爾克路 | Téléphone 00.00.4754 | Email: Les_chinois@gmail.com</p>
+        </header>
+        <section>
+            <div class="profil">
+                <h2>Profil</h2>
+                <p>Professionnel dynamique avec plus de 10 ans d'expérience dans le domaine de XYZ. Passionné par
+                    l'innovation et l'amélioration continue.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Expérience Professionnelle</h2>
+            <div class="experience">
+                <h3>Poste Actuel</h3>
+                <p>Entreprise XYZ | Janvier 2015 - Présent</p>
+                <ul>
+                    <li>Responsabilité 1</li>
+                    <li>Responsabilité 2</li>
+                    <li>Réalisations importantes</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h3>Poste Précédent</h3>
+                <p>Entreprise ABC | Mars 2010 - Décembre 2014</p>
+                <ul>
+                    <li>Responsabilité 1</li>
+                    <li>Responsabilité 2</li>
+                    <li>Réalisations importantes</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Éducation</h2>
+            <div class="education">
+                <h3>Diplôme en XYZ</h3>
+                <p>Université XYZ | 2005 - 2009</p>
+            </div>
+        </section>
+        <section>
+            <h2>Compétences</h2>
+            <ul class="skills">
+                <li>HTML + CSS</li>
+                <li>Java</li>
+                <li>Python </li>
+                <li>Compétence 4</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Langues</h2>
+            <ul class="languages">
+                <li>Français (Langue maternelle)</li>
+                <li>Anglais (Courant)</li>
+                <li>Espagnol (Intermédiaire)</li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>
